@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B68FEBBA34526D47CF1068E5 /* Pods_RIDO_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D743FCC459CD06DDC3D310 /* Pods_RIDO_Task.framework */; };
 		FAADD480286C3195005EC3BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAADD47F286C3195005EC3BA /* AppDelegate.swift */; };
-		FAADD482286C3195005EC3BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAADD481286C3195005EC3BA /* SceneDelegate.swift */; };
 		FAADD484286C3195005EC3BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAADD483286C3195005EC3BA /* ViewController.swift */; };
 		FAADD487286C3195005EC3BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAADD485286C3195005EC3BA /* Main.storyboard */; };
 		FAADD489286C3196005EC3BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAADD488286C3196005EC3BA /* Assets.xcassets */; };
 		FAADD48C286C3196005EC3BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAADD48A286C3196005EC3BA /* LaunchScreen.storyboard */; };
+		FAADD494286C324B005EC3BA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAADD493286C324B005EC3BA /* GoogleService-Info.plist */; };
+		FACD1A85286C36330084F9BB /* PaddedTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD1A84286C36330084F9BB /* PaddedTextfield.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16D743FCC459CD06DDC3D310 /* Pods_RIDO_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RIDO_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FDFE0E8C55A9705BD862C38 /* Pods-RIDO_Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RIDO_Task.debug.xcconfig"; path = "Target Support Files/Pods-RIDO_Task/Pods-RIDO_Task.debug.xcconfig"; sourceTree = "<group>"; };
+		D36EB492E745A1160BE0FC2F /* Pods-RIDO_Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RIDO_Task.release.xcconfig"; path = "Target Support Files/Pods-RIDO_Task/Pods-RIDO_Task.release.xcconfig"; sourceTree = "<group>"; };
 		FAADD47C286C3195005EC3BA /* RIDO_Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RIDO_Task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAADD47F286C3195005EC3BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAADD481286C3195005EC3BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FAADD483286C3195005EC3BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAADD486286C3195005EC3BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAADD488286C3196005EC3BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAADD48B286C3196005EC3BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAADD48D286C3196005EC3BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAADD493286C324B005EC3BA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FACD1A84286C36330084F9BB /* PaddedTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddedTextfield.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B68FEBBA34526D47CF1068E5 /* Pods_RIDO_Task.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D37E6FA4A9398AA722552B0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FDFE0E8C55A9705BD862C38 /* Pods-RIDO_Task.debug.xcconfig */,
+				D36EB492E745A1160BE0FC2F /* Pods-RIDO_Task.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D9EB1146473A12843C4DB730 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16D743FCC459CD06DDC3D310 /* Pods_RIDO_Task.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FAADD473286C3195005EC3BA = {
 			isa = PBXGroup;
 			children = (
 				FAADD47E286C3195005EC3BA /* RIDO_Task */,
 				FAADD47D286C3195005EC3BA /* Products */,
+				D37E6FA4A9398AA722552B0C /* Pods */,
+				D9EB1146473A12843C4DB730 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +82,24 @@
 		FAADD47E286C3195005EC3BA /* RIDO_Task */ = {
 			isa = PBXGroup;
 			children = (
+				FACD1A86286C36380084F9BB /* Constant File */,
 				FAADD47F286C3195005EC3BA /* AppDelegate.swift */,
-				FAADD481286C3195005EC3BA /* SceneDelegate.swift */,
 				FAADD483286C3195005EC3BA /* ViewController.swift */,
 				FAADD485286C3195005EC3BA /* Main.storyboard */,
 				FAADD488286C3196005EC3BA /* Assets.xcassets */,
 				FAADD48A286C3196005EC3BA /* LaunchScreen.storyboard */,
 				FAADD48D286C3196005EC3BA /* Info.plist */,
+				FAADD493286C324B005EC3BA /* GoogleService-Info.plist */,
 			);
 			path = RIDO_Task;
+			sourceTree = "<group>";
+		};
+		FACD1A86286C36380084F9BB /* Constant File */ = {
+			isa = PBXGroup;
+			children = (
+				FACD1A84286C36330084F9BB /* PaddedTextfield.swift */,
+			);
+			path = "Constant File";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +109,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAADD490286C3196005EC3BA /* Build configuration list for PBXNativeTarget "RIDO_Task" */;
 			buildPhases = (
+				AAD0FFA52693C3C36772B1C0 /* [CP] Check Pods Manifest.lock */,
 				FAADD478286C3195005EC3BA /* Sources */,
 				FAADD479286C3195005EC3BA /* Frameworks */,
 				FAADD47A286C3195005EC3BA /* Resources */,
+				2420A11E5CB78991AD86D240 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +163,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAADD48C286C3196005EC3BA /* LaunchScreen.storyboard in Resources */,
+				FAADD494286C324B005EC3BA /* GoogleService-Info.plist in Resources */,
 				FAADD489286C3196005EC3BA /* Assets.xcassets in Resources */,
 				FAADD487286C3195005EC3BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2420A11E5CB78991AD86D240 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RIDO_Task/Pods-RIDO_Task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RIDO_Task/Pods-RIDO_Task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RIDO_Task/Pods-RIDO_Task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAD0FFA52693C3C36772B1C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RIDO_Task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FAADD478286C3195005EC3BA /* Sources */ = {
@@ -140,7 +220,7 @@
 			files = (
 				FAADD484286C3195005EC3BA /* ViewController.swift in Sources */,
 				FAADD480286C3195005EC3BA /* AppDelegate.swift in Sources */,
-				FAADD482286C3195005EC3BA /* SceneDelegate.swift in Sources */,
+				FACD1A85286C36330084F9BB /* PaddedTextfield.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +364,7 @@
 		};
 		FAADD491286C3196005EC3BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FDFE0E8C55A9705BD862C38 /* Pods-RIDO_Task.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -297,12 +378,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "said.pk.RIDO-Task";
+				PRODUCT_BUNDLE_IDENTIFIER = said.pk.RIDO.Task;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -312,6 +394,7 @@
 		};
 		FAADD492286C3196005EC3BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D36EB492E745A1160BE0FC2F /* Pods-RIDO_Task.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -325,12 +408,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "said.pk.RIDO-Task";
+				PRODUCT_BUNDLE_IDENTIFIER = said.pk.RIDO.Task;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

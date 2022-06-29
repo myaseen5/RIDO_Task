@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>612964511794-8p9lj77kvr8uvecrpbjra2q6b0sa7scg.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.612964511794-8p9lj77kvr8uvecrpbjra2q6b0sa7scg</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD_FFYUms_eJVDmW7s6IuECmMZzN53kzqo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>612964511794</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>said.pk.RIDO.Task</string>
+	<key>PROJECT_ID</key>
+	<string>ridotask</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ridotask.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:612964511794:ios:ecceabe9cffe51e1e90c2b</string>
+</dict>
+</plist>
